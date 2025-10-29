@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap');
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+@import url();
+body {
+  background-color: #fdf0d5;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover:not(.active) {
+  background-color: #111111;
+}
+
+ul li a.active {
+  background-color: #780000;
+}
+
+h1 {
+    font-family: italic, "Bitcount Grid Single";
+}
+
+h2{
+    font-family:'Times New Roman', Times, serif;
+    border-bottom: 2px solid #333;
+}
+
+p{
+  font-family: Arial, sans-serif;
+}
+
+.resume{
+  width: 1200px;
+  outline: 2px dotted black;
+  
+}
+
+div.kungPao, div.burger{
+  border: 5px solid #5ac057;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: fit-content;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
