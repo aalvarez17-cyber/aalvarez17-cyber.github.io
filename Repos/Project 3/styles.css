@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap");
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: #888D60;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover:not(.active) {
+  background-color: #111111;
+}
+
+ul li a.active {
+  background-color: #909488;
+}
+
+h1 {
+    font-family:'Bitcount Grid Single', Times, serif;
+}
+
+h2{
+    font-family:'Times New Roman', Times, serif;
+}
+
+p{
+  font-family: Arial, sans-serif;
+}
+
+.resume{
+  width: 90%;
+  height: 145vh;
+  outline: 2px solid black;
+}
+
+.homePage{
+  width: 90%;
+  height: 145vh;
+  outline: 2px solid black;
+}
+
+div.kungPao, div.burger{
+  border: 5px solid #5ac057;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: fit-content;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+#quesButton {
+  width: 200px;
+  text-align: center;
+  color: whitesmoke;
+  background-color: #669bbc;
+  padding: 1em 0;
+  margin-top: 20px;
+  margin-left: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) {
+  body{
+    background: #A80C15;
+  }
+
+  h1, h2, h3, p, .resume, .homePage {
+    color:whitesmoke;
+    font-family: Helvetica,sans-serif, Arial;
+  }
+
+  ul li a, ol {
+    color:whitesmoke;  
+    font-family: Arial, sans-serif;
+  }
+
+  .resume, .homePage {
+    outline: 2px solid whitesmoke;
+    height: 120vh;
+  }
+
+  div.kungPao, div.burger{
+    border: 5px solid whitesmoke;
+  }
+
+  #quesButton {
+  width: 200px;
+  text-align: center;
+  color: black;
+  background-color: whitesmoke;
+  padding: 1em 0;
+  margin-top: 20px;
+  margin-left: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 992px) {
+  body{
+    background: #fdf0d5;
+  }
+
+  h1, h2, h3, p{
+    color:black;
+    font-family:'Times New Roman', Times, sans-serif;
+  }
+
+  ul li a{
+    color:whitesmoke;  
+    font-family:'Bitcount Grid Single', Arial, sans-serif;
+  }
+
+  ol{
+    color:black;  
+    font-family:'Times New Roman', Times, sans-serif;
+  }
+
+  .resume, .homePage {
+    outline: 2px solid black;
+    height: 130vh;
+  }
+
+  div.kungPao, div.burger{
+    border: 5px solid black;
+  }
+
+  #quesButton {
+  width: 200px;
+  text-align: center;
+  color: whitesmoke;
+  background-color: black;
+  padding: 1em 0;
+  margin-top: 20px;
+  margin-left: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+} 
